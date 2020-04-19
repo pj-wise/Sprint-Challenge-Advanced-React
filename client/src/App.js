@@ -26,9 +26,11 @@ export default class App extends Component {
     return (
       <div className='App'>
         <DarkButton />
-        {this.state.data.map((data) => {
-          return <DataCard key={data.id} data={data} />;
-        })}
+        <div className='flexCont'>
+          {this.state.data.map((data) => {
+            return <DataCard key={data.id} data={data} />;
+          })}
+        </div>
       </div>
     );
   }
