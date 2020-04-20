@@ -3,24 +3,24 @@
 }
 
 .flexCont {
-  display        : flex;
-  flex-wrap      : wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width          : 100%;
+  width: 100%;
 }
 
 .data-card {
   border: 1px solid black;
-  width : 30%;
+  width: 30%;
   margin: 1rem;
 }
 
 .divBtn {
   border: 1px solid black;
-  color : rgb(78, 196, 226);
+  color: rgb(78, 196, 226);
 }
 
 .divBtn:hover {
-  cursor    : pointer;
+  cursor: pointer;
   box-shadow: 5px 5px 5px grey;
 }

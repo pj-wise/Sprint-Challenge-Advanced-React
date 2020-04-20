@@ -3,6 +3,7 @@ import axios from 'axios';
 import DataCard from './components/DataCard';
 import DarkButton from './components/DarkButton';
 import './App.css';
+
 export default class App extends Component {
   constructor() {
     super();

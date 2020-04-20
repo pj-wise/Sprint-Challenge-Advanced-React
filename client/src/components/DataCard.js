@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const DataCard = props => {
+const DataCard = (props) => {
   return (
     <div data-testid='card' className='data-card'>
       <h3>{props.data.name}</h3>
